@@ -1,34 +1,28 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "<!DOCTYPE html>.js",
+  "name": "medusa-nextjs-ui-clone",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/update-ao/eshop.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/update-ao/eshop/issues"
-  },
-  "homepage": "https://github.com/update-ao/eshop#readme",
   "dependencies": {
-    "@supabase/auth-ui-react": "^0.4.7",
-    "@supabase/auth-ui-shared": "^0.1.8",
-    "@supabase/supabase-js": "^2.49.8",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "@medusajs/ui": "latest",
+    "@medusajs/ui-preset": "latest",
+    "@medusajs/icons": "latest",
+    "tailwindcss-radix": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.5.0",
-    "vite": "^6.3.5"
+    "@types/react": "latest",
+    "@types/node": "latest",
+    "typescript": "latest"
   }
 }
